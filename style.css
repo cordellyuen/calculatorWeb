@@ -1,0 +1,55 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+button {
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    padding: 0;
+    border-radius: 5%;
+    font-size: 2em;
+}
+
+#wideButtonLeft {
+    grid-column: 1 / span 2;
+}
+
+#wideButtonRight {
+    grid-column: 3 / span 2;
+}
+
+#wideButtonBottom {
+    grid-column: 1 / span 3;
+}
+
+#container {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 3%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px auto auto auto auto auto;
+    padding: 0;
+    width: 500px;
+    height: 600px;
+}
+
+#screen {
+    background-color: rgb(200, 200, 200);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 1%;
+    grid-column: 1 / span 4;
+}
+
+#displayValue {
+    font-size: 3em;
+    margin: 0;
+    margin-top: 20px;
+}
